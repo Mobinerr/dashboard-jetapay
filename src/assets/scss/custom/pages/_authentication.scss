@@ -1,0 +1,251 @@
+// 
+// authentication.scss
+//
+
+// authentication pages background
+html[dir="rtl"]{
+    .input-group:not(.has-validation) > :not(:last-child):not(.dropdown-toggle):not(.dropdown-menu), .input-group:not(.has-validation) > .dropdown-toggle:nth-last-child(n+3) {
+        border-top-right-radius: 0.25rem !important;
+        border-bottom-right-radius: 0.25rem !important;
+        border-top-left-radius: 0 !important;
+        border-bottom-left-radius: 0 !important;
+    }
+    .input-group > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+        margin-left: 0 !important;
+        margin-right: -1px !important;
+        border-top-right-radius: 0 !important;
+        border-bottom-right-radius: 0 !important;
+        border-top-left-radius: 0.25rem !important;
+        border-bottom-left-radius: 0.25rem !important;
+        background-color: #F4F4F4;
+        border: none;
+    }
+
+    .form-check {
+        padding-left: 0 !important;
+        padding-right: 1.612em !important;
+        .form-check-input {
+            float: right;
+            margin-left: 0 !important;
+            margin-right: -1.612em !important;
+        }
+    }
+}
+
+html[dir="ltr"]{
+    .input-group > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+        background-color: #F4F4F4 !important;
+        border: none;
+    }
+    body.authentication-bg {
+        .account-pages {
+            .account-pages-container{
+                .justify-content-start-container{
+                    justify-content: flex-end;
+                }
+            }
+        }
+    }
+}
+
+
+
+body.authentication-bg {
+    // background-image: $auth-bg-pattern-img;
+    // background-size: cover;
+    // background-position: center;
+    background-color: #fff;
+    position: relative;
+
+    input::placeholder{
+        font-size: smaller !important;
+    }
+    
+    .account-pages {
+        align-items: center;
+        display: flex;
+        min-height: 100vh;
+        position: relative;
+        z-index: 3;
+        overflow: hidden;
+        .account-pages-container{
+            position: relative;
+            z-index: 4;
+            .justify-content-start-container{
+                justify-content: flex-start;
+            }
+        }
+        &:before {
+            position: absolute;
+            content: "";
+            width: 855px;height: 910px;
+            background-image: $auth-bg-pattern-img-img;
+            background-repeat: no-repeat;
+            left: -100px;top: 0;
+            z-index: 1;
+        }
+        &:after {
+            position: absolute;
+            content: "";
+            width: 855px;height: 910px;
+            background-image: $auth-bg-pattern-img-svg;
+            background-repeat: no-repeat;
+            left: -50px;top: 100px;
+            z-index: 0;
+        }
+    }
+    .bg-primary-gradient{
+        background: linear-gradient(100deg, #F93500 10%, #F87631 90%);
+    }
+    .bg-primary{
+        background: #F86222 !important;
+    }
+
+    .btn-primary {
+        box-shadow: 0px 2px 6px 0px #F8622211 !important;
+    }
+    
+    .btn-primary {
+        color: #fff;
+        background-color: #F86222 !important;
+        border-color: #F86222 !important;
+    }
+    .btn-primary:hover {
+        color: #fff;
+        background-color: #ed5717 !important;
+        border-color: #ed5717 !important;
+    }
+    .bg-input-jetapay{
+        background: #F4F4F4;
+    }
+    .text-primary-jetapay{
+        color: #F86222 !important;
+    }
+}
+
+.authentication-bg.enlarged,
+.auth-fluid-pages.enlarged,
+body.auth-fluid-pages[data-leftbar-compact-mode=condensed] {
+    min-height: 100px;
+}
+
+// Logout page
+.logout-icon {
+    width: 140px;
+}
+
+// Authentication fluid 
+.auth-fluid {
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: row;
+    align-items: stretch;
+    background: url("../../../images/bg-auth.jpg") center;
+    background-size: cover;
+
+    .auth-fluid-form-box {
+        max-width: 480px;
+        border-radius: 0;
+        z-index: 2;
+        padding: 3rem 2rem;
+        background-color: $auth-bg;
+        position: relative;
+        width: 100%;
+    }
+
+    .auth-fluid-right, .auth-fluid-left {
+        padding: 6rem 3rem;
+        flex: 1;
+        position: relative;
+        color: $white;
+        background-color: rgba($black,0.3);
+    }
+}
+
+.auth-brand {
+    margin-bottom: 2rem;
+
+    .logo-dark  {
+        display: $logo-auth-dark-display;
+    }
+
+    .logo-light  {
+        display: $logo-auth-light-display;
+    }
+}
+
+.auth-user-testimonial {
+    position: absolute;
+    margin: 0 auto;
+    padding: 0 1.75rem;
+    bottom: 3rem;
+    left: 0;
+    right: 0;
+
+    p.lead {
+        font-size: 1.125rem;
+        margin: 0 auto 20px auto;
+        max-width: 700px;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    .auth-brand {
+        position: absolute;
+        top: 3rem;
+    }
+}
+
+@include media-breakpoint-down(lg) {
+    .auth-fluid {
+        display: block;
+
+        .auth-fluid-form-box {
+            max-width: 100%;
+            min-height: 100vh
+        }
+    
+        .auth-fluid-right {
+            display: none;
+        }
+    }
+}
+
+@include media-breakpoint-down(xl) {
+    body.authentication-bg {
+        background: #fff8f4;
+        background: -moz-linear-gradient(left, #fff8f4 0%, #ffffff 25%, #ffffff 75%, #fff8f4 100%);
+        background: -webkit-linear-gradient(left, #fff8f4 0%, #ffffff 25%, #ffffff 75%, #fff8f4 100%);
+        background: linear-gradient(to right, #fff8f4 0%, #ffffff 25%, #ffffff 75%, #fff8f4 100%);
+        .account-pages {
+            .account-pages-container{
+                .justify-content-start-container{
+                    justify-content: center;
+                }
+            }
+            &:before {
+                display: none;
+            }
+            &:after {
+                display: none;
+            }
+        }
+    }
+}
+
+
+
+
+// Dark mode
+body[data-layout-color="dark"] {
+    .auth-brand {
+        .logo-dark {
+             display: $logo-auth-light-display;
+        }
+        .logo-light {
+             display: $logo-auth-dark-display;
+        }
+    }
+}

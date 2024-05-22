@@ -1,0 +1,54 @@
+{
+    "DASHBOARD":{
+        "MAIN_PAGE":{
+            "DASHBOARD": "داشبورد"
+        },
+        "PROFILE":{
+            "HELLO": "خوش آمدید !"
+        },
+        "STATISTICS":{
+            "TITLE": "مشتریان",
+            "DESCRIPTION": "تعداد مشتریان",
+            "STATS": "۳۶,۲۵۴",
+            "TIME": "از ماه قبل"
+        },
+        "TOPBARSEARCH":{
+            "SEARCHBTN": "جستجو",
+            "PLACEHOLDER": "جستجو..."
+        }
+    },
+    "ACCOUNT":{
+        "Log In": "ورود",
+        "Do not have the account?": "حساب کاربری ندارید؟",
+        "Sign Up": "ثبت نام",
+        "Username": "نام کاربری",
+        "Password": "رمز عبور",
+        "Forgot your password?": "رمز عبور خود را فراموش کرده اید؟",
+        "Enter your email address and password to access admin panel.": "ایمیل و رمز عبور خود را برای ورود به پنل وارد کنید.",
+        "Sign In": "ورود به جتاپی",
+        "Don't have an account?": "حساب کاربری ندارید؟",
+        "Free Sign Up": "ثبت نام رایگان",
+        "Don't have an account? Create your account, it takes less than a minute.": "حساب کاربری بسازید، کمتر از یک دقیقه زمان می برد.",
+        "Full Name": "نام و نام خانوادگی",
+        "Email address": "ایمیل",
+        "I accept Terms and Conditions": "با قوانین و شرایط موافقم",
+        "Already have account?": "حساب کاربری دارید؟",
+        "Enter your name": "نام خود را وارد کنید",
+        "Enter your email": "ایمیل خود را وارد کنید",
+        "Enter your password": "رمز عبور خود را وارد کنید",
+        "Enter your Username": "نام کاربری خود را وارد کنید",
+        "Back to": "برگشت به",
+        "See You Again !": "دوباره میبینمت !",
+        "You are now successfully sign out.": "شما با موفقیت از حساب خود خارج شدید.",
+        "Hi ! Michael": "سلام! مایکل ",
+        "Enter your password to access the admin.": "برای دسترسی به پنل ادمین رمز عبور خود را وارد کنید.",
+        "Not you? return": "شما نیستید؟ برگشتن به",
+        "CREATE_ACC": "ایجاد حساب",
+        "Submit": "تایید",
+        "Reset_Pass_Title": "بازنشانی رمز عبور",
+        "Reset_Pass_Des": "آدرس ایمیل خود را وارد کنید و ما یک ایمیل با دستورالعمل بازنشانی رمز عبور برای شما ارسال خواهیم کرد",
+        "Confirm_Email_Title": "لطفا ایمیل خود را چک کنید",
+        "Confirm_Email_Des": "ایمیلی به youremail@domain.com ارسال شده است. لطفاً ایمیلی که از شرکت فرستاده شده را بررسی کنید و روی پیوند موجود برای تایید حساب خود کلیک کنید.",
+        "Confirm_Email_Btn": "برگشت به ورود"
+    }
+}

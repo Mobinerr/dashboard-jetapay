@@ -1,0 +1,54 @@
+{
+    "DASHBOARD":{
+        "MAIN_PAGE":{
+            "DASHBOARD": "Dashboard"
+        },
+        "PROFILE":{
+            "HELLO": "Welcome !"
+        },
+        "STATISTICS":{
+            "TITLE": "Customers",
+            "DESCRIPTION": "Number of Customers",
+            "STATS": "36,254",
+            "TIME": "Since last month"
+        },
+        "TOPBARSEARCH":{
+            "SEARCHBTN": "Search",
+            "PLACEHOLDER": "Search..."
+        }
+    },
+    "ACCOUNT":{
+        "Log In": "Login",
+        "Do not have the account?": "Do not have the account?",
+        "Sign Up": "Sign Up",
+        "Username": "Username",
+        "Password": "Password",
+        "Forgot your password?": "Forgot your password?",
+        "Enter your email address and password to access admin panel.": "Enter your email address and password to access admin panel.",
+        "Sign In": "Sign In",
+        "Don't have an account?": "Don't have an account?",
+        "Free Sign Up": "Free Sign Up",
+        "Don't have an account? Create your account, it takes less than a minute.": "Don't have an account? Create your account, it takes less than a minute.",
+        "Full Name": "Full Name",
+        "Email address": "Email address",
+        "I accept Terms and Conditions": "I accept Terms and Conditions",
+        "Already have account?": "Already have account?",
+        "Enter your name": "Enter your name",
+        "Enter your email": "Enter your email",
+        "Enter your password": "Enter your password",
+        "Enter your Username": "Enter your Username",
+        "Back to": "Back to",
+        "See You Again !": "See You Again !",
+        "You are now successfully sign out.": "You are now successfully sign out.",
+        "Hi ! Michael": "Hi ! Michael ",
+        "Enter your password to access the admin.": "Enter your password to access the admin.",
+        "Not you? return": "Not you? return",
+        "CREATE_ACC": "Create Account",
+        "Submit": "Submit",
+        "Reset_Pass_Title": "Reset Password",
+        "Reset_Pass_Des": "Enter your email address and we'll send you an email with instructions to reset your password",
+        "Confirm_Email_Title": "Please check your email",
+        "Confirm_Email_Des": "A email has been send to <b>youremail@domain.com</b>. Please check for an email from company and click on the included link to reset your password.",
+        "Confirm_Email_Btn": "Back to Login"
+    }
+}
